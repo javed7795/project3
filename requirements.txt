@@ -1,0 +1,9 @@
+pytorch
+pytorch-nlp
+torchtext
+pandas
+numpy
+scikit-learn
+python 3.x
+
+
