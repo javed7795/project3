@@ -194,6 +194,6 @@ def predict_inference(premise, hypothesis, text_field, label_field, model, devic
     
     return label_field.vocab.itos[prediction]
 
-with open("deep_model.txt.txt", 'w') as f:
+with open("deep_model.txt", 'w') as f:
     for idx in range(len(predicted)):
         f.write("{}\n".format(predict_inference(test['premise'][idx], test['hypothesis'][idx], TEXT, LABEL, model, device)))
